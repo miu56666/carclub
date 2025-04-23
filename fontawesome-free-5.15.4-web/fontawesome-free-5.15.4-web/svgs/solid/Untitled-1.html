@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+    function myFunction() {
+        document.getElementById("demo").innerHTML = "Paragraph changed.";
+        document.getElementById("demo").innerHTML = 5 + 6;
+    }
+    window.alert(5 + 6);
+document.write(5 + 6);
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>My Web Page</h1>
+    
+    <p id="demo">A Paragraph</p>
+    
+    <button type="button" onclick="myFunction()">Try it</button>
+    <h2>My First JavaScript</h2>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+<!--  -->
+
+<button onclick="document.write(5 + 6)">Try it</button>
+
+<p>JavaScript code (or just JavaScript) is a list of JavaScript statements.</p>
+
+<p id="demo2"></p>
+
+<script>
+var x = 5;
+var y = 6;
+var z = x + y;
+document.getElementById("demo2").innerHTML = z;
+</script>
+
+<p id="demo"></p>
+</body>
+</html>
